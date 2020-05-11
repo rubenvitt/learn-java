@@ -1,0 +1,19 @@
+<resources>
+	<string name="app_name">Save Food</string>
+	
+	<string name="navigation_drawer_open">Open navigation drawer</string>
+	<string name="navigation_drawer_close">Close navigation drawer</string>
+	
+	<string name="action_settings">Settings</string>
+	<string name="menu">My Fridge</string>
+	<string name="menu2">Need to eat</string>
+	<string name="menuHeader1">Contact</string>
+	<string name="menu5">Imprint</string>
+	<string name="menu6">Contact us</string>
+	<string name="menu4">Scan new procuct</string>
+	<string name="menu3">Recipes</string>
+	<string name="available">available</string>
+	<string name="consumed">consumed</string>
+	<string name="bought">bought at</string>
+	<string name="recipeIdeas">Recipe Ideas</string>
+</resources>

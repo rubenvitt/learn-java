@@ -1,0 +1,7 @@
+#Mon Feb 13 18:34:11 CET 2017
+base.0=/Users/rubeen/IdeaProjects/Rubeenstagram/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6241904df871e2e9428ab3ff7efebe8a7836cca0
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/rubeen/IdeaProjects/Rubeenstagram/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f8b45ca32792a87920e3a887e012812dd744c7b2/classes.dex
+base.1=/Users/rubeen/IdeaProjects/Rubeenstagram/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f8b45ca32792a87920e3a887e012812dd744c7b2
+file.0=/Users/rubeen/IdeaProjects/Rubeenstagram/Parse-Starter-Project-1.13.0/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_6241904df871e2e9428ab3ff7efebe8a7836cca0/classes.dex

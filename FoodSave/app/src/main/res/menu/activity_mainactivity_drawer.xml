@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_item1"
+                android:icon="@android:drawable/ic_dialog_dialer"
+                android:title="@string/menu"/>
+        <item
+                android:id="@+id/nav_item2"
+                android:icon="@android:drawable/ic_menu_my_calendar"
+                android:title="@string/menu2"/>
+        <item
+                android:id="@+id/nav_item3"
+                android:icon="@android:drawable/ic_menu_manage"
+                android:title="@string/menu3"/>
+        <item
+                android:id="@+id/nav_item4"
+                android:icon="@android:drawable/ic_menu_camera"
+                android:title="@string/menu4"/>
+    </group>
+    
+    <item android:title="@string/menuHeader1">
+        <menu>
+            <item
+                    android:id="@+id/nav_item5"
+                    android:icon="@android:drawable/ic_dialog_info"
+                    android:title="@string/menu5"/>
+            <item
+                    android:id="@+id/nav_item6"
+                    android:icon="@drawable/ic_menu_send"
+                    android:title="@string/menu6"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		xmlns:app="http://schemas.android.com/apk/res-auto"
+		android:id="@+id/content_main_menu"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:paddingLeft="@dimen/activity_horizontal_margin"
+		android:paddingRight="@dimen/activity_horizontal_margin"
+		android:paddingTop="@dimen/activity_vertical_margin"
+		android:paddingBottom="@dimen/activity_vertical_margin"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior"
+		tools:showIn="@layout/app_bar_mainactivity"
+		tools:context="foodsave.apps.rubeen.de.foodsave.MainActivity" android:scrollbarStyle="insideOverlay">
+	
+	<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+	              android:orientation="vertical" android:id="@+id/mainActivityContent">
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+		          style="@style/TextAppearance.AppCompat.Headline" android:text="Abgelaufen"
+		          android:layout_marginBottom="10dp"/>
+		
+		<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+		              android:orientation="vertical" android:id="@+id/listOutOfDate">
+			<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+			              android:orientation="horizontal"
+			              android:layout_marginBottom="@dimen/activity_vertical_margin">
+				<ImageView android:layout_width="50dp" android:layout_height="50dp"
+				           android:background="@drawable/side_nav_bar"/>
+				<LinearLayout android:layout_marginLeft="5dp" android:layout_width="match_parent"
+				              android:layout_height="match_parent"
+				              android:orientation="vertical">
+					<TextView android:layout_width="match_parent" android:layout_height="17dp" android:textSize="14dp"
+					          android:text="Bananenpüree verpackt in einer Plastikpackung"/>
+					<LinearLayout android:layout_width="match_parent"
+					              android:layout_height="wrap_content">
+						<TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+						          android:textSize="10dp"
+						          android:text="10 x vorhanden\t| 20 x verbraucht \nGekauft am: 11.11.1111"
+						          android:layout_marginTop="5dp"/>
+						<Button android:layout_width="match_parent" android:layout_height="wrap_content"
+						        android:text="Rezeptideen" android:textSize="12dp"
+						        style="@style/Widget.AppCompat.Button.Colored"/>
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+			
+			<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+			              android:orientation="horizontal" android:layout_marginBottom="@dimen/activity_vertical_margin">
+				<ImageView android:layout_width="50dp" android:layout_height="50dp"
+				           android:background="@drawable/side_nav_bar"/>
+				<LinearLayout android:layout_marginLeft="5dp" android:layout_width="match_parent"
+				              android:layout_height="match_parent"
+				              android:orientation="vertical">
+					<TextView android:layout_width="match_parent" android:layout_height="17dp" android:textSize="14dp"
+					          android:text="Erbsen in der Dose"/>
+					<LinearLayout android:layout_width="match_parent"
+					              android:layout_height="wrap_content">
+						<TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+						          android:textSize="10dp"
+						          android:text="1 x vorhanden\t| 3 x verbraucht \nGekauft am: 11.11.1111"
+						          android:layout_marginTop="5dp"/>
+						<Button android:layout_width="match_parent" android:layout_height="wrap_content"
+						        android:text="Rezeptideen" android:textSize="12dp"
+						        style="@style/Widget.AppCompat.Button.Colored"/>
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+			
+			<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+			              android:orientation="horizontal" android:layout_marginBottom="@dimen/activity_vertical_margin">
+				<ImageView android:layout_width="50dp" android:layout_height="50dp"
+				           android:background="@drawable/side_nav_bar"/>
+				<LinearLayout android:layout_marginLeft="5dp" android:layout_width="match_parent"
+				              android:layout_height="match_parent"
+				              android:orientation="vertical">
+					<TextView android:layout_width="match_parent" android:layout_height="17dp" android:textSize="14dp"
+					          android:text="Apfelkuchen"/>
+					<LinearLayout android:layout_width="match_parent"
+					              android:layout_height="wrap_content">
+						<TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+						          android:textSize="10dp"
+						          android:text="1 x vorhanden\t| 0 x verbraucht \nGekauft am: 11.11.1111"
+						          android:layout_marginTop="5dp"/>
+						<Button android:layout_width="match_parent" android:layout_height="wrap_content"
+						        android:text="Rezeptideen" android:textSize="12dp"
+						        style="@style/Widget.AppCompat.Button.Colored"/>
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		
+		</LinearLayout>
+		
+		
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+		          style="@style/TextAppearance.AppCompat.Headline" android:text="Schnell Essen"
+		          android:layout_marginBottom="10dp"/>
+		
+		<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+		              android:orientation="vertical" android:id="@+id/listNeedToEat">
+			<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+			              android:orientation="horizontal" android:layout_marginBottom="@dimen/activity_vertical_margin">
+				<ImageView android:layout_width="50dp" android:layout_height="50dp"
+				           android:background="@drawable/side_nav_bar"/>
+				<LinearLayout android:layout_marginLeft="5dp" android:layout_width="match_parent"
+				              android:layout_height="match_parent"
+				              android:orientation="vertical">
+					<TextView android:layout_width="match_parent" android:layout_height="17dp" android:textSize="14dp"
+					          android:text="Bananenpüree verpackt in einer Plastikpackung"/>
+					<LinearLayout android:layout_width="match_parent"
+					              android:layout_height="wrap_content">
+						<TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+						          android:textSize="10dp"
+						          android:text="10 x vorhanden\t| 20 x verbraucht \nGekauft am: 11.11.1111"
+						          android:layout_marginTop="5dp"/>
+						<Button android:layout_width="match_parent" android:layout_height="wrap_content"
+						        android:text="Rezeptideen" android:textSize="12dp"
+						        style="@style/Widget.AppCompat.Button.Colored"/>
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+			
+			<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+			              android:orientation="horizontal" android:layout_marginBottom="@dimen/activity_vertical_margin">
+				<ImageView android:layout_width="50dp" android:layout_height="50dp"
+				           android:background="@drawable/side_nav_bar"/>
+				<LinearLayout android:layout_marginLeft="5dp" android:layout_width="match_parent"
+				              android:layout_height="match_parent"
+				              android:orientation="vertical">
+					<TextView android:layout_width="match_parent" android:layout_height="17dp" android:textSize="14dp"
+					          android:text="Erbsen in der Dose"/>
+					<LinearLayout android:layout_width="match_parent"
+					              android:layout_height="wrap_content">
+						<TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+						          android:textSize="10dp"
+						          android:text="1 x vorhanden\t| 3 x verbraucht \nGekauft am: 11.11.1111"
+						          android:layout_marginTop="5dp"/>
+						<Button android:layout_width="match_parent" android:layout_height="wrap_content"
+						        android:text="Rezeptideen" android:textSize="12dp"
+						        style="@style/Widget.AppCompat.Button.Colored"/>
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+			
+			<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+			              android:orientation="horizontal" android:layout_marginBottom="@dimen/activity_vertical_margin">
+				<ImageView android:layout_width="50dp" android:layout_height="50dp"
+				           android:background="@drawable/side_nav_bar"/>
+				<LinearLayout android:layout_marginLeft="5dp" android:layout_width="match_parent"
+				              android:layout_height="match_parent"
+				              android:orientation="vertical">
+					<TextView android:layout_width="match_parent" android:layout_height="17dp" android:textSize="14dp"
+					          android:text="Apfelkuchen"/>
+					<LinearLayout android:layout_width="match_parent"
+					              android:layout_height="wrap_content">
+						<TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+						          android:textSize="10dp"
+						          android:text="1 x vorhanden\t| 0 x verbraucht \nGekauft am: 11.11.1111"
+						          android:layout_marginTop="5dp"/>
+						<Button android:layout_width="match_parent" android:layout_height="wrap_content"
+						        android:text="Rezeptideen" android:textSize="12dp"
+						        style="@style/Widget.AppCompat.Button.Colored"/>
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		
+		</LinearLayout>
+		
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+		          style="@style/TextAppearance.AppCompat.Headline" android:text="Hält sich noch"
+		          android:layout_marginBottom="10dp"/>
+		
+		<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+		              android:orientation="vertical" android:id="@+id/listOkay">
+			<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+			              android:orientation="horizontal" android:layout_marginBottom="@dimen/activity_vertical_margin">
+				<ImageView android:layout_width="50dp" android:layout_height="50dp"
+				           android:background="@drawable/side_nav_bar"/>
+				<LinearLayout android:layout_marginLeft="5dp" android:layout_width="match_parent"
+				              android:layout_height="match_parent"
+				              android:orientation="vertical">
+					<TextView android:layout_width="match_parent" android:layout_height="17dp" android:textSize="14dp"
+					          android:text="Bananenpüree verpackt in einer Plastikpackung"/>
+					<LinearLayout android:layout_width="match_parent"
+					              android:layout_height="wrap_content">
+						<TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+						          android:textSize="10dp"
+						          android:text="10 x vorhanden\t| 20 x verbraucht \nGekauft am: 11.11.1111"
+						          android:layout_marginTop="5dp"/>
+						<Button android:layout_width="match_parent" android:layout_height="wrap_content"
+						        android:text="Rezeptideen" android:textSize="12dp"
+						        style="@style/Widget.AppCompat.Button.Colored"/>
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+			
+			<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+			              android:orientation="horizontal" android:layout_marginBottom="@dimen/activity_vertical_margin">
+				<ImageView android:layout_width="50dp" android:layout_height="50dp"
+				           android:background="@drawable/side_nav_bar"/>
+				<LinearLayout android:layout_marginLeft="5dp" android:layout_width="match_parent"
+				              android:layout_height="match_parent"
+				              android:orientation="vertical">
+					<TextView android:layout_width="match_parent" android:layout_height="17dp" android:textSize="14dp"
+					          android:text="Erbsen in der Dose"/>
+					<LinearLayout android:layout_width="match_parent"
+					              android:layout_height="wrap_content">
+						<TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+						          android:textSize="10dp"
+						          android:text="1 x vorhanden\t| 3 x verbraucht \nGekauft am: 11.11.1111"
+						          android:layout_marginTop="5dp"/>
+						<Button android:layout_width="match_parent" android:layout_height="wrap_content"
+						        android:text="Rezeptideen" android:textSize="12dp"
+						        style="@style/Widget.AppCompat.Button.Colored"/>
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+			
+			<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+			              android:orientation="horizontal" android:layout_marginBottom="@dimen/activity_vertical_margin">
+				<ImageView android:layout_width="50dp" android:layout_height="50dp"
+				           android:background="@drawable/side_nav_bar"/>
+				<LinearLayout android:layout_marginLeft="5dp" android:layout_width="match_parent"
+				              android:layout_height="match_parent"
+				              android:orientation="vertical">
+					<TextView android:layout_width="match_parent" android:layout_height="17dp" android:textSize="14dp"
+					          android:text="Apfelkuchen"/>
+					<LinearLayout android:layout_width="match_parent"
+					              android:layout_height="wrap_content">
+						<TextView android:layout_width="wrap_content" android:layout_height="match_parent"
+						          android:textSize="10dp"
+						          android:text="1 x vorhanden\t| 0 x verbraucht \nGekauft am: 11.11.1111"
+						          android:layout_marginTop="5dp"/>
+						<Button android:layout_width="match_parent" android:layout_height="wrap_content"
+						        android:text="Rezeptideen" android:textSize="12dp"
+						        style="@style/Widget.AppCompat.Button.Colored"/>
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		
+		</LinearLayout>
+	</LinearLayout>
+</ScrollView>

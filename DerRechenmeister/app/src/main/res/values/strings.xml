@@ -1,0 +1,7 @@
+<resources>
+	<string name="app_name">Master Of Calculation</string>
+	<string name="startGame">Start Game</string>
+	<string name="seconds">Seconds</string>
+	<string name="wrong">Wrong</string>
+	<string name="right">Right</string>
+</resources>

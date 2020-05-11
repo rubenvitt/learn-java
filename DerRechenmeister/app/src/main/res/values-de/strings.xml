@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Der Rechenmeister</string>
+	<string name="right">Richtig</string>
+	<string name="seconds">Sekunden</string>
+	<string name="startGame">Spiel starten</string>
+	<string name="wrong">Falsch</string>
+</resources>

@@ -1,0 +1,16 @@
+.root {
+    -fx-background-color: #282828;
+}
+.label {
+    -fx-text-fill: #E8E8E8;
+}
+.button {
+    -fx-background-color: #383838;
+    -fx-text-fill: #E8E8E8;
+    -fx-background-radius: 10px;
+}
+.button-blue {
+    -fx-background-color: #7CAFC2;
+    -fx-text-fill: #E8E8E8;
+    -fx-background-radius: 10;
+}
